@@ -1,4 +1,4 @@
-# Creating a neural network model for bestway
+# Creating a neural network model
 
 # Fetching the libraries
 require(xlsx)
@@ -8,8 +8,8 @@ require(neuralnet)
 
 # Reading the dataset
 
-setwd("X:/Bestway Cement/Sales Data/")
-mydata <- read.xlsx("SALES JOURNAL.xlsx", sheetIndex = 2)
+setwd("Required")
+mydata <- read.xlsx("required.xlsx", sheetIndex = 2)
 
 # Viewing the original dataset
 
